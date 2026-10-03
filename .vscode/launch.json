@@ -1,0 +1,20 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Python: Valecraft",
+			"type": "debugpy",
+			"request": "launch",
+			"program": "${workspaceFolder}/valecraft.py",
+			"console": "integratedTerminal"
+		},
+		{
+			"name": "Python: Docs",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "mkdocs",
+      "args": ["serve"],
+      "console": "integratedTerminal"
+		}
+	],
+}
