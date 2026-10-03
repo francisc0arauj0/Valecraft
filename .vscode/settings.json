@@ -1,0 +1,22 @@
+{
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": false,
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+
+		"editor.minimap.enabled": false,
+		"editor.wordWrap": "off",
+		"editor.rulers": [80],
+		
+		"python.analysis.typeCheckingMode": "basic",
+		"python.analysis.autoImportCompletions": true,
+		"python.analysis.completeFunctionParens": true,
+		"python.analysis.diagnosticMode": "workspace",
+
+		"python.analysis.exclude": [
+			"**/.venv/**",
+			"**/__pycache__/**",
+			"**/build/**",
+			"**/dist/**"
+		],
+}
