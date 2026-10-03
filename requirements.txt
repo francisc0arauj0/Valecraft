@@ -1,0 +1,6 @@
+pygame-ce
+moderngl
+PyGLM
+numba
+mkdocs
+mkdocs-material
