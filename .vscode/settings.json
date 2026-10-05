@@ -27,10 +27,7 @@
 					"type": "createTime",
 					"format": "YYYY-MM-DD HH:mm:ss",
 				},
-				"Modified by": {
-					"type": "modifier",
-					"value": "Francisco Araújo",
-				},
+				"Copyright": "Copyright (c) 2026 Francisco Araújo"
 			}
 		}
 }
