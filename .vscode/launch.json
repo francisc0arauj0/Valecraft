@@ -7,14 +7,6 @@
 			"request": "launch",
 			"program": "${workspaceFolder}/valecraft.py",
 			"console": "integratedTerminal"
-		},
-		{
-			"name": "Python: Docs",
-      "type": "debugpy",
-      "request": "launch",
-      "module": "mkdocs",
-      "args": ["serve"],
-      "console": "integratedTerminal"
 		}
 	],
 }
