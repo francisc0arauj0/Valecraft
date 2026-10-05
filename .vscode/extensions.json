@@ -1,5 +1,9 @@
 {
 	"recommendations": [
-		"ms-python.python"
+		"ms-python.python",
+		"DanielLin.auto-header",
+		"heyprincesingh.pycache-cleaner",
+		"tamasfe.even-better-toml",
+		"ms-vscode.powershell"
 	]
 }
