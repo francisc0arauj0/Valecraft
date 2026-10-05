@@ -1,33 +1,31 @@
 {
-    "editor.formatOnSave": true,
-    "editor.insertSpaces": false,
-    "editor.tabSize": 2,
-    "editor.detectIndentation": false,
-
-		"editor.minimap.enabled": false,
-		"editor.wordWrap": "off",
-		"editor.rulers": [80],
-		
-		"python.analysis.typeCheckingMode": "basic",
-		"python.analysis.autoImportCompletions": true,
-		"python.analysis.completeFunctionParens": true,
-		"python.analysis.diagnosticMode": "workspace",
-
-		"python.analysis.exclude": [
-			"**/.venv/**",
-			"**/__pycache__/**",
-			"**/build/**",
-			"**/dist/**"
-		],
-
-		"autoHeader": {
-			"header": {
-				"Author": "Francisco Araújo",
-				"Create Time": {
-					"type": "createTime",
-					"format": "YYYY-MM-DD HH:mm:ss",
-				},
-				"Copyright": "Copyright (c) 2026 Francisco Araújo"
-			}
+	"editor.formatOnSave": true,
+	"editor.insertSpaces": false,
+	"editor.tabSize": 4,
+	"editor.detectIndentation": false,
+	"editor.minimap.enabled": false,
+	"editor.wordWrap": "off",
+	"editor.rulers": [
+		80
+	],
+	"python.analysis.typeCheckingMode": "basic",
+	"python.analysis.autoImportCompletions": true,
+	"python.analysis.completeFunctionParens": true,
+	"python.analysis.diagnosticMode": "workspace",
+	"python.analysis.exclude": [
+		"**/.venv/**",
+		"**/__pycache__/**",
+		"**/build/**",
+		"**/dist/**"
+	],
+	"autoHeader": {
+		"header": {
+			"Author": "Francisco Araújo",
+			"Create Time": {
+				"type": "createTime",
+				"format": "YYYY-MM-DD HH:mm:ss",
+			},
+			"Copyright": "Copyright (c) 2026 Francisco Araújo"
 		}
+	}
 }
