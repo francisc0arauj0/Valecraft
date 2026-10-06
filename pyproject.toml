@@ -1,0 +1,34 @@
+[project]
+name = "valecraft"
+version = "0.0.0"
+description = "A open source RPG built with Python"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [{name = "Francisco Araújo"}]
+classifiers = [
+    "Intended Audience :: End Users/Desktop",
+    "License :: GNU General Public License v3 or later (GPLv3+)",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Games/Entertainment",
+    "Topic :: Games/Entertainment :: Role-Playing"
+]
+
+requires-python = ">=3.13"
+dynamic = ["dependencies"]
+
+[project.urls]
+homepage = "https://github.com/francisc0arauj0/Valecraft"
+source = "https://github.com/francisc0arauj0/Valecraft"
+
+[project.gui-scripts]
+valecraft = "valecraft.__main__:main"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["valecraft*"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = "requirements.txt"}
