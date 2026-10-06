@@ -1,23 +1,54 @@
 {
+	"workbench.layoutControl.enabled": false,
+	"workbench.activityBar.location": "bottom",
+	"workbench.colorTheme": "Min Dark",
+	"workbench.iconTheme": "symbols",
+	"workbench.statusBar.visible": false,
+	"workbench.editor.enablePreview": false,
+	"workbench.editor.showTabs": "single",
+	"workbench.startupEditor": "none",
+	"workbench.tips.enabled": false,
+	"workbench.navigationControl.enabled": false,
+	"workbench.editor.editorActionsLocation": "hidden",
+	"workbench.accounts.showAvatar": false,
+
+	"explorer.compactFolders": false,
+	"explorer.decorations.badges": false,
+
 	"editor.formatOnSave": true,
 	"editor.insertSpaces": false,
 	"editor.tabSize": 4,
 	"editor.detectIndentation": false,
 	"editor.minimap.enabled": false,
 	"editor.wordWrap": "off",
-	"editor.rulers": [
-		80
-	],
+	"editor.rulers": [80],
+	"editor.snippetSuggestions": "top",
+	"editor.guides.indentation": false,
+	"editor.colorDecorators": false,
+	"editor.renderLineHighlight": "gutter",
+	"editor.occurrencesHighlight": "off",
+	"editor.stickyScroll.enabled": false,
+	"editor.cursorBlinking": "smooth",
+	"editor.cursorStyle": "block",
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.scrollbar.vertical": "hidden",
+
+	"breadcrumbs.enabled": false,
+	"chat.titleBar.openInAgentsWindow.enabled": false,
+	"problems.decorations.enabled": false,
+
 	"python.analysis.typeCheckingMode": "basic",
 	"python.analysis.autoImportCompletions": true,
 	"python.analysis.completeFunctionParens": true,
 	"python.analysis.diagnosticMode": "workspace",
+	"python.analysis.autoFormatStrings": true,
 	"python.analysis.exclude": [
 		"**/.venv/**",
 		"**/__pycache__/**",
 		"**/build/**",
 		"**/dist/**"
 	],
+
 	"autoHeader": {
 		"header": {
 			"Author": "Francisco Araújo",
@@ -27,5 +58,5 @@
 			},
 			"Copyright": "Copyright (c) 2026 Francisco Araújo"
 		}
-	}
+	},
 }
