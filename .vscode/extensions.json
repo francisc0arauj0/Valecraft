@@ -4,6 +4,8 @@
 		"DanielLin.auto-header",
 		"heyprincesingh.pycache-cleaner",
 		"tamasfe.even-better-toml",
-		"ms-vscode.powershell"
+		"ms-vscode.powershell",
+		"miguelsolorio.min-theme",
+		"miguelsolorio.symbols"
 	]
 }
