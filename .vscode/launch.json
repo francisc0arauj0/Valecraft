@@ -2,11 +2,19 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
+			"name": "PowerShell: Setup project",
+			"type": "PowerShell",
+			"request": "launch",
+			"script": "${workspaceFolder}/setup.ps1",
+			"cwd": "${cwd}"
+		},
+		{
 			"name": "Python: Valecraft",
 			"type": "debugpy",
 			"request": "launch",
 			"program": "${workspaceFolder}/valecraft.py",
 			"console": "integratedTerminal"
-		}
+		},
+
 	],
 }
