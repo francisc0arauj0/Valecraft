@@ -29,5 +29,5 @@ Version History
 #### v0.0.2
 
 * Update documentation
-* Display and Fullscreen management
+* Display and fullscreen management
 * Other features currently in development
