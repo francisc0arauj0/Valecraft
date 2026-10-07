@@ -1,3 +1,0 @@
-prune .vscode
-prune .github
-exclude .gitignore 
