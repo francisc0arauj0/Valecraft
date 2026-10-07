@@ -1,5 +1,6 @@
 Contributing to Valecraft
 =========================
+
 Thank you for your interest in contributing to Valecraft!
 
 Valecraft is a free and open-source RPG built with Python. Contributions of all kinds are welcome, whether you want to fix a bug, add a feature, improve the documentation, or simply help improve the project.
