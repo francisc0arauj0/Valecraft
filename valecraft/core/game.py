@@ -7,14 +7,18 @@
 import pygame
 import sys
 
+from valecraft.core.display import Display
+
 class Game:
 	def __init__(self) -> None:
 		pygame.init()
-		pygame.display.set_mode((800, 600))
-		pygame.display.set_caption("Valecraft")
+
+		self.display = Display()
+
 		self.clock = pygame.time.Clock()
 		self.dt = 0
 		self.time = 0
+
 		self.is_running = True
 
 	def update(self) -> None:
@@ -26,6 +30,11 @@ class Game:
 		for event in pygame.event.get():
 			if event.type == pygame.QUIT:
 				self.is_running = False
+			if event.type == pygame.VIDEORESIZE:
+				self.display.resize((event.w, event.h))
+			if event.type == pygame.KEYDOWN:
+				if event.key == pygame.K_F11:
+					self.display.toggle_fullscreen()
 
 	def run(self) -> None:
 		while self.is_running:
