@@ -12,7 +12,7 @@
 			"name": "Python: Valecraft",
 			"type": "debugpy",
 			"request": "launch",
-			"program": "${workspaceFolder}/valecraft.py",
+			"program": "${workspaceFolder}/valecraft/main.py",
 			"console": "integratedTerminal"
 		},
 
