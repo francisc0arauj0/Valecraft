@@ -29,6 +29,6 @@ Write-Host "`n[3/4] Updating pip"
 
 Write-Host "`n[4/4] Installing Valecraft"
 
-& $python -m pip install -e ".[dev]"
+& $python -m pip install -e .
 
 Write-Host "`nSetup complete!" -ForegroundColor Green
