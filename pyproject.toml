@@ -1,6 +1,6 @@
 [project]
 name = "valecraft"
-version = "0.0.0"
+version = "0.0.1"
 description = "A open source RPG built with Python"
 readme = "README.md"
 license = {file = "LICENSE"}

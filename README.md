@@ -4,6 +4,21 @@
 	<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/github/license/francisc0arauj0/Valecraft?style=flat" alt="License"> <img src="https://img.shields.io/badge/Version-0.0.0-blue?style=flat" alt="Version"> <img src="https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white" alt="Commits">
 </div>
 
+Development Status
+------------------
+
+Valecraft is currently in active development.
+
+### Current Version
+
+**v0.0.1**
+
+### Version History
+
+| Version | Status | Description |
+| --- | --- | --- |
+| `v0.0.0` | Completed | Initial project setup |
+| `v0.0.1` | **Current** | Initial game class  |
 
 License
 -------
