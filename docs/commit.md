@@ -41,8 +41,11 @@ Scopes should identify the main area affected by the change.
 
 Common scopes used in Valecraft:
 
-| Scope       | Description                             |
-| ----------- | --------------------------------------- |
-| `game`      | Main game logic                         |
-| `display`   | Window, resolution and display settings |
-| `docs`      | Documentation                           |
+| Scope     | Description                  |
+| --------- | ---------------------------- |
+| `game`    | Main game logic              |
+| `display` | Window and display settings  |
+| `player`  | Player system                |
+| `scene`   | Scene management             |
+| `level`   | Level system                 |
+| `docs`    | Documentation                |

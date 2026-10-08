@@ -24,10 +24,11 @@ Version History
 
 * Game class
 * Window creation
-* Update documentation
+* Documentation
 
 #### v0.0.2
 
-* Update documentation
+* Documentation
 * Display and fullscreen management
-* Other features currently in development
+* Scene manager and level setup
+* Player
