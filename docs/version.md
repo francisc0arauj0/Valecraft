@@ -39,4 +39,4 @@ Version History
 
 * Documentation
 * Rewrite project codebase
-* Pylance stict mode
+* Pylance cofigs and strict mode
