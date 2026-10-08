@@ -1,0 +1,28 @@
+'''
+ # @ Author: Francisco Araújo
+ # @ Create Time: 2026-10-08 00:50:12
+ # @ Copyright: Copyright (c) 2026 Francisco Araújo
+ '''
+
+import pygame
+
+from valecraft.entities.player import Player
+
+class Level:
+	def __init__(self, game, map_name: str) -> None:
+		self.game = game
+		self.map_name = map_name
+		self.sprites_group = pygame.sprite.Group()
+		self.on_init()
+	
+	def on_init(self) -> None:
+		self.player = Player((100, 100), self.sprites_group)
+
+	def events(self, events: list[pygame.event.Event]) -> None:
+		pass
+
+	def update(self, dt: float) -> None:
+		self.sprites_group.update(dt)
+
+	def draw(self, screen: pygame.Surface) -> None:
+		self.sprites_group.draw(screen)
