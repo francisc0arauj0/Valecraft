@@ -1,11 +1,11 @@
 Version History
 ===============
 
-| Version  | Status      | Description             |
+| Version  | Status      | Added or updated        |
 | -------- | ----------- | ----------------------- |
-| `v0.0.0` | Completed   | [Project setup](#v000)  |
-| `v0.0.1` | Completed   | [Game class](#v001)     |
-| `v0.0.2` | **Current** | [In development](#v002) |
+| `v0.0.0` | Completed   | [read](#v000) 		   |
+| `v0.0.1` | Completed   | [raed](#v001)   		   |
+| `v0.0.2` | Completed   | [read](#v002) 		   |
 
 ### Changelog
 

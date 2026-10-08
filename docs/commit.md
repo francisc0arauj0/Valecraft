@@ -49,3 +49,4 @@ Common scopes used in Valecraft:
 | `scene`   | Scene management             |
 | `level`   | Level system                 |
 | `docs`    | Documentation                |
+| `config`  | Project configuration        |
