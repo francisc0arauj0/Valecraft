@@ -11,14 +11,6 @@ Valecraft follows the [Conventional Commits](https://www.conventionalcommits.org
 
 The `scope` is optional and identifies the part of the project affected by the change.
 
-### Example
-
-```text
-feat(player): add sprinting
-```
-
----
-
 ## Commit Types
 
 | Type       | Description                                               | Example                                      |
