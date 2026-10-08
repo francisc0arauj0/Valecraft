@@ -6,6 +6,7 @@ Version History
 | `v0.0.0` | Completed   | [read](#v000) 		   |
 | `v0.0.1` | Completed   | [raed](#v001)   		   |
 | `v0.0.2` | Completed   | [read](#v002) 		   |
+| `v0.0.3` | **Current** | [read](#v003) 		   |
 
 ### Changelog
 
@@ -32,3 +33,10 @@ Version History
 * Display and fullscreen management
 * Scene manager and level setup
 * Player class
+
+
+#### v0.0.3
+
+* Documentation
+* Rewrite project codebase
+* Pylance stict mode
