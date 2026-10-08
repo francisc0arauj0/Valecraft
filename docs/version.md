@@ -31,4 +31,4 @@ Version History
 * Documentation
 * Display and fullscreen management
 * Scene manager and level setup
-* Player
+* Player class
