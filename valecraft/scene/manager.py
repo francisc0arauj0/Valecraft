@@ -4,24 +4,25 @@
  # @ Copyright: Copyright (c) 2026 Francisco Araújo
  '''
 
+from __future__ import annotations
+
 import pygame
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING: from valecraft.game import Game
+from valecraft.scene.scene import Scene
+
 
 class SceneManager:
-	def __init__(self, game) -> None:
-		self.game = game
-		self.current_scene = None
+	def __init__(self, game: Game) -> None:
+		self.game: Game = game
+		self.current_scene: Scene = Scene(game=self.game, map_name="Farm")
 
-	def change(self, scene) -> None:
+	def change(self, scene: Scene) -> None:
 		self.current_scene = scene
 
-	def events(self, events: list[pygame.event.Event]) -> None:
-		if self.current_scene:
-			self.current_scene.events(events)
-
 	def update(self, dt: float) -> None:
-		if self.current_scene:
-			self.current_scene.update(dt)
+		self.current_scene.update(dt=dt)
 
-	def draw(self, screen: pygame.Surface) -> None:
-		if self.current_scene:
-			self.current_scene.draw(screen)
+	def draw(self, window: pygame.Surface) -> None:
+		self.current_scene.draw(window=window)

@@ -4,10 +4,10 @@
  # @ Copyright: Copyright (c) 2026 Francisco Araújo
  '''
 
-from valecraft.core.game import Game
+from valecraft.game import Game
 
-def main():
-	game = Game()
+def main() -> None:
+	game: Game = Game()
 	game.run()
 
 if __name__ == "__main__":
