@@ -24,7 +24,7 @@ class Game:
 		self.on_init()
 
 	def on_init(self) -> None:
-		self.scene_manager = SceneManager(self)
+		self.scene_manager = SceneManager("farm")
 
 	def events(self) -> None:
 		events: list[pygame.Event] = pygame.event.get()
