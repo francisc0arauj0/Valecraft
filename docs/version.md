@@ -7,6 +7,7 @@ Version History
 | `v0.0.1` | Completed   | [raed](#v001)   		   |
 | `v0.0.2` | Completed   | [read](#v002) 		   |
 | `v0.0.3` | Completed   | [read](#v003) 		   |
+| `v0.0.4` | **Current** | [read](#v004) 		   |
 
 ### Changelog
 
@@ -41,3 +42,8 @@ Version History
 * Rewrite project codebase
 * Pylance cofigs and strict mode
 * Clean code
+
+#### v0.0.4
+
+* Clean code
+* Documentation
