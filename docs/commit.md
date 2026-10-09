@@ -36,9 +36,9 @@ Common scopes used in Valecraft:
 | Scope     | Description                  |
 | --------- | ---------------------------- |
 | `game`    | Main game logic              |
-| `display` | Window and display settings  |
+| `window`  | Window settings              |
+| `entity`  | Entity system                |
 | `player`  | Player system                |
-| `scene`   | Scene management             |
-| `level`   | Level system                 |
+| `scene`   | Scenes and Scene manager     |
 | `docs`    | Documentation                |
 | `config`  | Project configuration        |
