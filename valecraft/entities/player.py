@@ -16,7 +16,7 @@ class Player(Entity):
 		self.image.fill((255, 0, 0))
 
 	def input(self) -> None:
-		keys: pygame.key.ScancodeWrapper = pygame.key.get_pressed()
+		keys = pygame.key.get_pressed()
 			
 		if keys[pygame.K_w]:
 			self.direction.y = -1
