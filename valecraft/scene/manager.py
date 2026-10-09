@@ -15,8 +15,8 @@ from valecraft.scene.scene import Scene
 
 class SceneManager:
 	def __init__(self, game: Game) -> None:
-		self.game: Game = game
-		self.current_scene: Scene = Scene(game=self.game, map_name="Farm")
+		self.game = game
+		self.current_scene = Scene(game=self.game, map_name="Farm")
 
 	def change(self, scene: Scene) -> None:
 		self.current_scene = scene

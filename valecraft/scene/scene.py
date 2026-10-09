@@ -14,8 +14,8 @@ from valecraft.entities.player import Player
 
 class Scene:
 	def __init__(self, game: Game, map_name: str) -> None:
-		self.game: Game = game
-		self.map_name: str = map_name
+		self.game = game
+		self.map_name = map_name
 		self.sprites_group: pygame.sprite.Group[pygame.sprite.Sprite] = pygame.sprite.Group()
 
 		self.on_init()
