@@ -7,7 +7,7 @@
 from valecraft.game import Game
 
 def main() -> None:
-	game: Game = Game()
+	game = Game()
 	game.run()
 
 if __name__ == "__main__":

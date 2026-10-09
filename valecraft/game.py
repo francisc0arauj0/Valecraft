@@ -14,13 +14,13 @@ class Game:
 	def __init__(self) -> None:
 		pygame.init()
 
-		self.window: GameWindow = GameWindow(name="Valecraft")
+		self.window = GameWindow(name="Valecraft")
 
-		self.clock: pygame.Clock = pygame.time.Clock()
-		self.dt: float = 0.0
-		self.time: int = 0
+		self.clock = pygame.time.Clock()
+		self.dt = 0.0
+		self.time = 0
 		
-		self.is_running: bool = True
+		self.is_running = True
 		self.on_init()
 
 	def on_init(self) -> None:

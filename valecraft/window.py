@@ -8,12 +8,10 @@ import pygame
 
 class GameWindow:
 	def __init__(self, name: str) -> None:
-		self.name: str = name
-
-		self.window_size: tuple[int , int] = (800, 600)
-		self.surface: pygame.Surface = pygame.display.set_mode(size=self.window_size, flags=pygame.RESIZABLE)
-		
-		self.fullscreen: bool = False
+		self.name = name
+		self.window_size = (800, 600)
+		self.surface = pygame.display.set_mode(size=self.window_size, flags=pygame.RESIZABLE)
+		self.fullscreen = False
 
 	def toggle_fullscreen(self) -> None:
 		self.fullscreen = not self.fullscreen
