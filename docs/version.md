@@ -40,3 +40,4 @@ Version History
 * Documentation
 * Rewrite project codebase
 * Pylance cofigs and strict mode
+* Clean code
