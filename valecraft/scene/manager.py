@@ -7,18 +7,13 @@
 from __future__ import annotations
 
 import pygame
-from typing import TYPE_CHECKING
 
-if TYPE_CHECKING: from valecraft.game import Game
-from valecraft.scene.scene import Scene
+from valecraft.scene.farm import Farm
 
 class SceneManager:
-	def __init__(self, game: Game) -> None:
-		self.game = game
-		self.current_scene = Scene(self.game, "Farm")
-
-	def change(self, scene: Scene) -> None:
-		self.current_scene = scene
+	def __init__(self, scene: str) -> None:
+		if scene == "farm":
+			self.current_scene = Farm()
 
 	def update(self, dt: float) -> None:
 		self.current_scene.update(dt)

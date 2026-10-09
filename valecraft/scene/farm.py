@@ -7,17 +7,12 @@
 from __future__ import annotations
 
 import pygame
-from typing import TYPE_CHECKING
 
-if TYPE_CHECKING: from valecraft.game import Game
 from valecraft.entities.player import Player
 
-class Scene:
-	def __init__(self, game: Game, map_name: str) -> None:
-		self.game = game
-		self.map_name = map_name
+class Farm:
+	def __init__(self) -> None:
 		self.sprites_group: pygame.sprite.Group[pygame.sprite.Sprite] = pygame.sprite.Group()
-	
 		self.on_init()
 
 	def on_init(self) -> None:
