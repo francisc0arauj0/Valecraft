@@ -17,14 +17,14 @@ class Scene:
 		self.game = game
 		self.map_name = map_name
 		self.sprites_group: pygame.sprite.Group[pygame.sprite.Sprite] = pygame.sprite.Group()
-
+	
 		self.on_init()
 
 	def on_init(self) -> None:
-		self.player = Player(position=(100, 100), group=self.sprites_group)
+		self.player = Player((100, 100), self.sprites_group)
 
 	def update(self, dt: float) -> None:
-		self.player.update(dt=dt)
+		self.player.update(dt)
 
 	def draw(self, window: pygame.Surface) -> None:
-		self.sprites_group.draw(surface=window)
+		self.sprites_group.draw(window)

@@ -10,19 +10,19 @@ class GameWindow:
 	def __init__(self, name: str) -> None:
 		self.name = name
 		self.window_size = (800, 600)
-		self.surface = pygame.display.set_mode(size=self.window_size, flags=pygame.RESIZABLE)
+		self.display = pygame.display.set_mode(self.window_size, pygame.RESIZABLE)
 		self.fullscreen = False
 
 	def toggle_fullscreen(self) -> None:
 		self.fullscreen = not self.fullscreen
 
 		if self.fullscreen:
-			self.surface = pygame.display.set_mode(size=(0,0), flags=pygame.FULLSCREEN)
+			self.display = pygame.display.set_mode((0,0), pygame.FULLSCREEN)
 		else:
-			self.surface = pygame.display.set_mode(size=self.window_size, flags=pygame.FULLSCREEN)
+			self.display = pygame.display.set_mode(self.window_size, pygame.FULLSCREEN)
 
 	def resize(self, size: tuple[int, int]) -> None:
 		if not self.fullscreen:
 			self.window_size = size
-			self.surface = pygame.display.set_mode(size=self.window_size, flags=pygame.RESIZABLE)
+			self.display = pygame.display.set_mode(self.window_size, pygame.RESIZABLE)
 

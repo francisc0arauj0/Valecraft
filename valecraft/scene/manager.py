@@ -12,17 +12,16 @@ from typing import TYPE_CHECKING
 if TYPE_CHECKING: from valecraft.game import Game
 from valecraft.scene.scene import Scene
 
-
 class SceneManager:
 	def __init__(self, game: Game) -> None:
 		self.game = game
-		self.current_scene = Scene(game=self.game, map_name="Farm")
+		self.current_scene = Scene(self.game, "Farm")
 
 	def change(self, scene: Scene) -> None:
 		self.current_scene = scene
 
 	def update(self, dt: float) -> None:
-		self.current_scene.update(dt=dt)
+		self.current_scene.update(dt)
 
 	def draw(self, window: pygame.Surface) -> None:
-		self.current_scene.draw(window=window)
+		self.current_scene.draw(window)

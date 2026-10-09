@@ -13,7 +13,7 @@ class Player(Entity):
 		super().__init__(position, group)
 		self.speed = 100
 		self.is_player = True
-		self.image.fill(color=(255, 0, 0))
+		self.image.fill((255, 0, 0))
 
 	def input(self) -> None:
 		keys: pygame.key.ScancodeWrapper = pygame.key.get_pressed()

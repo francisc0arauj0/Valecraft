@@ -13,7 +13,7 @@ class Entity(pygame.sprite.Sprite):
 		self.direction = pygame.Vector2()
 		self.speed = 0
 
-		self.image: pygame.Surface = pygame.Surface(size=(24, 32))
+		self.image: pygame.Surface = pygame.Surface((24, 32))
 		self.rect: pygame.Rect = self.image.get_rect(center=position)
 		self.position = pygame.Vector2(self.rect.center)
 
@@ -31,4 +31,4 @@ class Entity(pygame.sprite.Sprite):
 		self.rect.centery = self.position.y
 
 	def update(self, dt: float) -> None:
-		self.move(dt=dt)
+		self.move(dt)
