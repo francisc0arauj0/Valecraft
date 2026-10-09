@@ -4,8 +4,6 @@
  # @ Copyright: Copyright (c) 2026 Francisco Araújo
  '''
 
-from __future__ import annotations
-
 import pygame
 
 from valecraft.scene.farm import Farm
