@@ -42,9 +42,7 @@
 	"python.analysis.completeFunctionParens": true,
 	"python.analysis.diagnosticMode": "workspace",
 	"python.analysis.autoFormatStrings": true,
-	"python.analysis.inlayHints.variableTypes": true,
 	"python.analysis.inlayHints.functionReturnTypes": true,
-	"python.analysis.inlayHints.callArgumentNames": "all",
 	"python.analysis.indexing": true,
 	"python.analysis.useLibraryCodeForTypes": true,
 	"python.analysis.exclude": [
