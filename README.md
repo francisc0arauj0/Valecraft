@@ -11,7 +11,7 @@ Valecraft is currently in active development.
 
 ### Current Version
 
-**v0.0.4**
+**v0.0.0**
 
 [View version history](docs/version.md)
 
