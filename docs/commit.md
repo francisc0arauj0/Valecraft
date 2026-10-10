@@ -33,12 +33,14 @@ Scopes should identify the main area affected by the change.
 
 Common scopes used in Valecraft:
 
-| Scope     | Description                  |
-| --------- | ---------------------------- |
-| `game`    | Main game logic              |
-| `window`  | Window settings              |
-| `entity`  | Entity system                |
-| `player`  | Player system                |
-| `scene`   | Scenes and Scene manager     |
-| `docs`    | Documentation                |
-| `config`  | Project configuration        |
+| Scope     | Description          |
+|-----------|----------------------|
+| `game`    | Main game logic      |
+| `display` | Display settings     |
+| `camera`  | Camera system        |
+| `entity`  | Entity system        |
+| `player`  | Player system        |
+| `scene`   | Scene management     |
+| `docs`    | Documentation        |
+| `config`  | Project config       |
+| `assets`  | Game assets          |
