@@ -48,5 +48,5 @@ Version History
 * Clean code
 * Documentation
 * Scene manager
-* Entity sprites support
+* Entity sprites
 * Camera
