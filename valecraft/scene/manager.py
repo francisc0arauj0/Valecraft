@@ -4,8 +4,6 @@
  # @ Copyright: Copyright (c) 2026 Francisco Araújo
  '''
 
-import pygame
-
 from valecraft.scene.farm import Farm
 
 class SceneManager:
@@ -16,5 +14,5 @@ class SceneManager:
 	def update(self, dt: float) -> None:
 		self.current_scene.update(dt)
 
-	def draw(self, window: pygame.Surface) -> None:
-		self.current_scene.draw(window)
+	def draw(self) -> None:
+		self.current_scene.draw()

@@ -4,13 +4,12 @@
  # @ Copyright: Copyright (c) 2026 Francisco Araújo
  '''
 
-import pygame
-
+from valecraft.display.camera import FarmCameraGroup
 from valecraft.entities.player import Player
 
 class Farm:
 	def __init__(self) -> None:
-		self.sprites_group: pygame.sprite.Group[pygame.sprite.Sprite] = pygame.sprite.Group()
+		self.sprites_group: FarmCameraGroup = FarmCameraGroup()
 		self.on_init()
 
 	def on_init(self) -> None:
@@ -19,5 +18,5 @@ class Farm:
 	def update(self, dt: float) -> None:
 		self.player.update(dt)
 
-	def draw(self, window: pygame.Surface) -> None:
-		self.sprites_group.draw(window)
+	def draw(self) -> None:
+		self.sprites_group.custom_draw(self.player)
