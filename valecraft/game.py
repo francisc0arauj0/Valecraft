@@ -8,7 +8,7 @@ import sys
 import pygame
 
 from valecraft.scene.manager import SceneManager
-from valecraft.window import GameWindow
+from valecraft.display.window import GameWindow
 
 class Game:
 	def __init__(self) -> None:
@@ -46,7 +46,7 @@ class Game:
 
 	def draw(self) -> None:
 		self.window.display.fill((0, 0, 0))
-		self.scene_manager.draw(self.window.display)
+		self.scene_manager.draw()
 		pygame.display.update()
 		
 	def run(self) -> None:
