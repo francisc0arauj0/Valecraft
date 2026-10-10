@@ -38,6 +38,8 @@ class Game:
 				if event.key == pygame.K_F11:
 					self.window.toggle_fullscreen()
 
+			self.scene_manager.events(event)
+
 	def update(self) -> None:
 		self.dt = self.clock.tick() / 1000
 		self.time = pygame.time.get_ticks()
